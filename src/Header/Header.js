@@ -1,18 +1,20 @@
 import { number } from 'prop-types';
-import React ,{ Component } from 'react';
+import React, { Component } from 'react';
+import { FishoppingCart } from 'react-icons/fi';
+import './Header.scss';
 
 export class Header extends Component {
   render() {
-        const {productNum}=this.props;
-    return(
-        <div className="header">
-            <h1>Store</h1>
-            <FishoppingCart color="white"/>
-            <span>{productNum}</span>
-        </div>
+    const { productsNum } = this.props;
+    return (
+      <div className="header">
+        <h1>Store</h1>
+        <FishoppingCart color="white" />
+        <span>{productsNum}</span>
+      </div>
     );
-    }
-    static propTypes={
+  }
+  static propTypes = {
     productsNum: number,
-    }
+  };
 }
