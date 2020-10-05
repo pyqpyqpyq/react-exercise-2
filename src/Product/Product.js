@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { string, func } from 'prop-types';
 import productImgSrc from '../assets/product_image_placeholder.png';
+import './Product.scss';
 
 export class Product extends Component {
   render() {

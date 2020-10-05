@@ -1,6 +1,6 @@
 import { number } from 'prop-types';
 import React, { Component } from 'react';
-import { FishoppingCart } from 'react-icons/fi';
+import { FiShoppingCart } from 'react-icons/fi';
 import './Header.scss';
 
 export class Header extends Component {
@@ -9,7 +9,7 @@ export class Header extends Component {
     return (
       <div className="header">
         <h1>Store</h1>
-        <FishoppingCart color="white" />
+        <FiShoppingCart color="white" />
         <span>{productsNum}</span>
       </div>
     );
