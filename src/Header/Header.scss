@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  height: 70px;
+
+  padding: 20px;
+
+  background-color: $support-blue;
+}
+
+.header > h1 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: $white;
+}
+
+.header > svg {
+  margin-left: auto;
+}
+
+.header > span {
+  width: 20px;
+  height: 15px;
+
+  margin-left: 5px;
+
+  background-color: $support-red;
+  border-radius: 6px;
+
+  text-align: center;
+  color: $white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 11px;
+}

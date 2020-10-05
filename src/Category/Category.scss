@@ -1,0 +1,16 @@
+.category {
+    box-sizing: border-box;
+  
+    padding: 20px;
+  }
+  
+  .category > h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .category-products-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
